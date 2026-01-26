@@ -29,7 +29,7 @@ func bisection_method(
 		max_iter = math.MaxInt
 	}
 
-	for (interval[1]-interval[0])/2 > tolerance && iteration < max_iter {
+	for interval[1] - interval[0] > tolerance && iteration < max_iter {
 		iteration++
 		convergance = (interval[0] + interval[1]) / 2
 		if f(convergance) == 0 {
