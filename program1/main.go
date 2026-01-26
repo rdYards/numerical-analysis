@@ -51,7 +51,7 @@ func main() {
 	// The function f (x) does not have a root on the interval [1, 2].
 	var convergance, convergance_f, iteration, error = bisection_method([2]float64{1, 2}, 3, 0)
 	if error != nil {
-		fmt.Printf("Error: %v\n", error)
+		fmt.Printf("Error: %v.\n", error)
 	} else {
 		fmt.Printf(
 			"Root found: convergance ≈ %f, f(convergance) ≈ %f, with %d iterations.\n",
@@ -62,7 +62,7 @@ func main() {
 	// The function f (x) on the interval [−1, 4] is not guaranteed to have a root by the IVT
 	convergance, convergance_f, iteration, error = bisection_method([2]float64{-1, 4}, 3, 0)
 	if error != nil {
-		fmt.Printf("Error: %v\n", error)
+		fmt.Printf("Error: %v.\n", error)
 	} else {
 		fmt.Printf(
 			"Root found: convergance ≈ %f, f(convergance) ≈ %f, with %d iterations.\n",
@@ -75,7 +75,7 @@ func main() {
 	// and a max of 8 iterations should fail.
 	convergance, convergance_f, iteration, error = bisection_method([2]float64{-0.5, 1}, 3, 8)
 	if error != nil {
-		fmt.Printf("Error: %v\n", error)
+		fmt.Printf("Error: %v.\n", error)
 	} else {
 		fmt.Printf(
 			"Root found: convergance ≈ %f, f(convergance) ≈ %f, with %d iterations.\n",
@@ -88,7 +88,7 @@ func main() {
 	// This should happen in 3 iterations on f (x) on the interval [2.7, 3.5].
 	convergance, convergance_f, iteration, error = bisection_method([2]float64{2.7, 3.5}, 3, 0)
 	if error != nil {
-		fmt.Printf("Error: %v\n", error)
+		fmt.Printf("Error: %v.\n", error)
 	} else {
 		fmt.Printf(
 			"Root found: convergance ≈ %f, f(convergance) ≈ %f, with %d iterations.\n",
