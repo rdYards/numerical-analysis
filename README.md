@@ -4,10 +4,12 @@ This repository contains assignments for the numerical analysis class, where mat
 
 ## Structure
 
-Each assignment is located in its own directory (e.g., `program1`, `program2`, etc.). The code is written in Go and is intended to be run via the terminal. Each program directory includes a separate `README.md` with specific instructions and details.
+Each assignment is located in its own directory (`program1`, `program2`, etc.). The code is written in Go and is intended to be run via the terminal. Each program directory includes a separate `README.md` with specific instructions and details.
 
 ### README locations:
-- **[Program 1](program1/README.md)** - [Bisection Method Programming Assignment]
+- **[Program 1](program1/README.md)** - Bisection Method Programming Assignment
+
+---
 
 ## Setup
 ### 1. Clone the Repository
@@ -18,8 +20,6 @@ To set up the project, clone the repo:
 git clone https://github.com/rdYards/numerical-analysis.git
 cd numerical-analysis
 ```
-
----
 
 ### 2. Install Go
 If needed download and install go onto your system.
@@ -48,6 +48,7 @@ If needed download and install go onto your system.
      ```
    - You should see the installed Go version printed.
 
+---
 
 ### macOS
 1. **Download Go**
@@ -72,6 +73,8 @@ If needed download and install go onto your system.
 4. **Verify Installation**
    ```bash
    go version
+   
+---
 
 ### Linux
 #### Ubuntu/Debian
@@ -149,5 +152,3 @@ If needed download and install go onto your system.
    ```bash
    go version
    ```
-
----

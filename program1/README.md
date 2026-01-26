@@ -35,7 +35,6 @@ At the current moment the function is hardcoded into the program as a `func`. To
 ```go
 f(x) = math.Pow(x, 3) - (9 * x)
 ```
-A cubic function with roots at `x = 0`, `x ≈ ±3`.
 
 ### Test 1: Failure Cases
 - **1. Interval [1, 2]**:
