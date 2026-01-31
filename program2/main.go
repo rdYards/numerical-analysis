@@ -20,6 +20,10 @@ func newtons_method(
 	var p_1 = initial_guess
 	var iteration int = 1
 	var tolerance float64 = math.Pow(10, -float64(tol))
+	
+	if max_iter == 0 {
+		max_iter = math.MaxInt
+	}
 
 	for iteration < max_iter {
 		if math.Abs(p - p_1) < tolerance {
@@ -49,6 +53,10 @@ func secant_method(
 	var iteration int = 1
 	var tolerance float64 = math.Pow(10, -float64(tol))
 
+	if max_iter == 0 {
+		max_iter = math.MaxInt
+	}
+	
 	for iteration <= max_iter {
 		p = p1 - ((f(p1) * (p1 - p0)) / (f(p1) - f(p0)))
 		
