@@ -76,4 +76,3 @@ At the current moment the functions are hardcoded into the program. To use anoth
 
 2. **Trigonometric Function (cos(x) - x)**:
    - Expected: Find root ≈ 0.73909 in 4 iterations
-```
