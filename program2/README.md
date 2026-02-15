@@ -6,6 +6,8 @@ Newton's Method (also known as the Newton-Raphson method) is an iterative numeri
 
 The Secant Method is another iterative root-finding technique that approximates the root of a function. It's similar to Newton's Method but doesn't require the calculation of the derivative. Instead, it uses the secant line (a line connecting two points on the function) to approximate the root.
 
+**[Assignment Instructions](newton_method-program.pdf)**
+
 ## How to Run
 
 1. **Navigate to the project directory**:

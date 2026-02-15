@@ -2,6 +2,8 @@
 
 Gaussian elimination is a algorithm to solve systems of linear equations by transforming a matrix into a simpler, upper-triangular form. It uses basic row operations to eliminate variables step by step until the solution becomes clear through back-substitution.
 
+**[Assignment Instructions](gpp-program.pdf)**
+
 ## How to Run
 
 1. **Navigate to the project directory**:

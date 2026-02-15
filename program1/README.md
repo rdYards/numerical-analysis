@@ -2,6 +2,8 @@
 
 This program implements the **Bisection Method**, a root-finding algorithm for continuous functions. The implementation includes error handling and additional outputs to verify convergence.
 
+**[Assignment Instructions](bisection_method-program.pdf)**
+
 ## How to Run
 
 1. **Navigate to the project directory**:
