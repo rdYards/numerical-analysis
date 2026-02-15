@@ -9,7 +9,7 @@ Each assignment is located in its own directory (`program1`, `program2`, etc.). 
 ### README locations:
 - **[Program 1](program1/README.md)** - Bisection Method Programming Assignment
 - **[Program 2](program2/README.md)** - Newton’s Method & Secant Method Programming Assignment
-
+- **[Program 3](program3/README.md)** - Gaussian Elimination Programming Assignment
 ---
 
 ## Setup
