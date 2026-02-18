@@ -63,6 +63,10 @@ func gaussian_elimination(input_matrix [][]float64) ([]float64, [][]float64, err
 		}
 	}
 
+	if math.Abs(matrix[n-1][m]) < 1e-10 {
+		return nil, matrix, errors.New("Error: Zero element found in the last row")
+	}
+
 	// Back substitution
 	solution := make([]float64, m)
 	for row := m - 1; row >= 0; row-- {
@@ -79,22 +83,22 @@ func gaussian_elimination(input_matrix [][]float64) ([]float64, [][]float64, err
 func main() {
 	// Matrixes used for gaussian_elimination
 	var matrix_1 = [][]float64{
-		{0, 1, 1},
-		{0, 1, 2},
-		{0, 2, 2},
+		{0, 1, 1, 2},
+		{0, 1, 2, 2},
+		{0, 2, 2, 2},
 	}
 
 	var matrix_2 = [][]float64{
-		{1, 0, 0},
-		{0, 1, 0},
-		{0, 0, 0},
+		{1, 0, 0, 2},
+		{0, 1, 0, 2},
+		{0, 0, 0, 2},
 	}
 
 	var matrix_3 = [][]float64{
-		{1, 1, 1, 1},
-		{0, 1, 1, 1},
-		{1, 1, 1, 1},
-		{0, 1, 1, 1},
+		{1, 1, 1, 1, 2},
+		{0, 1, 1, 1, 2},
+		{1, 1, 1, 1, 2},
+		{0, 1, 1, 1, 2},
 	}
 
 	var matrix_4 = [][]float64{
