@@ -67,12 +67,12 @@ func main() {
 
 	// Quadratic function y = x^2 - 2x + 3
 	quadraticPoints := []Point{
-		{X: -1, Y: 7 / 2},
-		{X: -0.7, Y: 2.87443},
-		{X: -0.4, Y: 2.40214},
-		{X: -0.1, Y: 2.07697},
-		{X: 0.2, Y: 1.8913},
-		{X: 0.5, Y: 1.83579},
+		{X: -1.0, Y: 6.0},
+		{X: -0.7, Y: 4.89},
+		{X: -0.4, Y: 3.96},
+		{X: -0.1, Y: 3.21},
+		{X: 0.2, Y: 2.64},
+		{X: 0.5, Y: 2.25},
 	}
 	derivs, err = derivatives(quadraticPoints)
 	if err != nil {

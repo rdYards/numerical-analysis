@@ -1,5 +1,9 @@
 go 1.25.6
 
 use (
-    ./program1
+	./program1
+	./program2
+	./program3
+	./program4
+	./program5
 )
