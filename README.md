@@ -11,7 +11,8 @@ Each assignment is located in its own directory (`program1`, `program2`, etc.). 
 - **[Program 2](program2/README.md)** - Newton’s Method & Secant Method Programming Assignment
 - **[Program 3](program3/README.md)** - Gaussian Elimination Programming Assignment
 - **[Program 4](program4/README.md)** - Interpolation Programming Assignment
-- - **[Program 5](program5/README.md)** - Derivatives Programming Assignment
+- **[Program 5](program5/README.md)** - Derivatives Programming Assignment
+- **[Program 6](program6/README.md)** - Integration Programming Assignment
 ---
 
 ## Setup
