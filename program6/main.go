@@ -48,7 +48,7 @@ func CompositeSimpson(f Function, interval [2]float64, n int) (float64, error) {
 // Input: Function, Interval [a, b], epsilon, Number of subintervals
 // Output: Integral approximation, Error
 func AdaptiveQuadrature(f Function, interval [2]float64, epsilon float64, N int) (float64, int, error) {
-	maxDepth := 100
+	maxDepth := 3
 	depth := 0
 
 	if N <= 0 {
